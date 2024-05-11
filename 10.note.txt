@@ -1,0 +1,23 @@
+Memory Management
+    Code that decides what's kept in memory and what's thrown away
+
+Memory Leak
+    The amount of memory used by a program continues to grow unnecessarily
+
+Garbage Collection
+    An automated memory management process that keeps track of which items aren't needed and deletes them
+____________________________________________________________________________________________________________
+
+Thread & Multi-Threading
+    - Computer programs can be faster and more responsive by structuring them to do multiple things at once.
+    - To do this, you can structure your code to start separate tasks that are executed simultaneously. 
+    - Each task is known as a thread, and the overall approach to writing code that executes threads concurrently is known as multi-threading. 
+    - Each thread in a multi-threaded program requires additional processing power and memory from the computer where the code is being executed. 
+    - A computer's resources are finite though, so it's important to balance the benefits of multi-threading with the potential performance impacts on the computer as a whole. 
+    - Consuming too much processor power or computer memory can slow the entire computer system, which cancels out any increase in responsiveness from splitting code into multiple threads.
+
+// Many languages including Python support multi-threading. You may hear the term asynchronous code in relation to other languages like JavaScript. It's not exactly the same as multi-threading, but it's very similar.
+____________________________________________________________________________________________________________
+
+Algorithm
+    A set of instructions to describe the exact result
