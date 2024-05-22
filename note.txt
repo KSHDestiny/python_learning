@@ -1,0 +1,49 @@
+Memory Management
+    Code that decides what's kept in memory and what's thrown away
+
+Memory Leak
+    The amount of memory used by a program continues to grow unnecessarily
+
+Garbage Collection
+    An automated memory management process that keeps track of which items aren't needed and deletes them
+____________________________________________________________________________________________________________
+
+Thread & Multi-Threading
+    - Computer programs can be faster and more responsive by structuring them to do multiple things at once.
+    - To do this, you can structure your code to start separate tasks that are executed simultaneously. 
+    - Each task is known as a thread, and the overall approach to writing code that executes threads concurrently is known as multi-threading. 
+    - Each thread in a multi-threaded program requires additional processing power and memory from the computer where the code is being executed. 
+    - A computer's resources are finite though, so it's important to balance the benefits of multi-threading with the potential performance impacts on the computer as a whole. 
+    - Consuming too much processor power or computer memory can slow the entire computer system, which cancels out any increase in responsiveness from splitting code into multiple threads.
+
+// Many languages including Python support multi-threading. You may hear the term asynchronous code in relation to other languages like JavaScript. It's not exactly the same as multi-threading, but it's very similar.
+____________________________________________________________________________________________________________
+
+Algorithm
+    A set of instructions to describe the exact result
+____________________________________________________________________________________________________________
+
+None Object
+    A special Python object denoting the lack of a value
+____________________________________________________________________________________________________________
+
+Polling Programming
+    - With the polling method, a program is continuously checking and checking and checking and actively checking for a certain condition to occur, like a button being pressed, and when it sees that the condition has occurred, it'll then perform an appropriate action.
+    - A computer application that implements a polling routine uses a lot of cycles, checking for that rarely occurring status, And simple, low-level programs like you might write for a microcontroller with a language like C, using polling to do software-driven I/O might be perfectly acceptable. If the program is the only thing running on the microcontroller, it doesn't matter if we spend a lot of cycles polling.
+    - Higher-level applications and languages like Python or Java are usually responding to events from things like a graphical user interface. For that, using a polling routine would be pretty wasteful, but there may be times when polling is your only option. 
+    - When you create a polling routine, it's usually a good idea to include some sort of delay mechanism in the loop to keep it from running nonstop, which can waste CPU resources and prevent other things from running, or at least slow them down. 
+____________________________________________________________________________________________________________
+
+Event-driven Programming
+    - As an event-driven program, it can only handle one event at a time.
+
+    Event Handler
+        Code that is executed when an event occurs
+
+    Event Loop
+        Core of every asyncio application
+        Manage and run asynchronous tasks
+
+    Callback
+        Reference to executable code passed as an argument
+        Can act as an event handler
