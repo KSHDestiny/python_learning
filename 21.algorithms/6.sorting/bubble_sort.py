@@ -1,0 +1,61 @@
+def bubbleSort(dataset):
+    for i in range(len(dataset) - 1, 0, -1):
+        for j in range(i):
+            if dataset[j] > dataset[j+1]:
+                temp = dataset[j]
+                dataset[j] = dataset[j+1]
+                dataset[j+1] = temp
+            print("Current state: ", dataset)
+
+list1 = [6, 20, 8, 19, 56, 23, 87, 41, 49, 53]
+print("Start: ", list1)
+bubbleSort(list1)
+print("Result: ", list1)
+
+# Start:  [6, 20, 8, 19, 56, 23, 87, 41, 49, 53]
+# Current state:  [6, 20, 8, 19, 56, 23, 87, 41, 49, 53]
+# Current state:  [6, 8, 20, 19, 56, 23, 87, 41, 49, 53]
+# Current state:  [6, 8, 19, 20, 56, 23, 87, 41, 49, 53]
+# Current state:  [6, 8, 19, 20, 56, 23, 87, 41, 49, 53]
+# Current state:  [6, 8, 19, 20, 23, 56, 87, 41, 49, 53]
+# Current state:  [6, 8, 19, 20, 23, 56, 87, 41, 49, 53]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 87, 49, 53]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 49, 87, 53]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 49, 53, 87]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 49, 53, 87]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 49, 53, 87]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 49, 53, 87]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 49, 53, 87]
+# Current state:  [6, 8, 19, 20, 23, 56, 41, 49, 53, 87]
+# Current state:  [6, 8, 19, 20, 23, 41, 56, 49, 53, 87]
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 56, 53, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Current state:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]      
+# Result:  [6, 8, 19, 20, 23, 41, 49, 53, 56, 87]
